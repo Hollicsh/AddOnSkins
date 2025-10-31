@@ -77,6 +77,7 @@ function R:PremadeGroupsFilter()
 		    	S:HandleCheckBox(panel.Group.NotDeclined.Act)
 		    	panel.Group.NotDeclined.Act:SetWidth(30)
 		    	panel.Group.NotDeclined.Act:SetHeight(30)
+			end
 		    if panel.Group.BRFit then
 		    	S:HandleCheckBox(panel.Group.BRFit.Act)
 		    	panel.Group.BRFit.Act:SetWidth(30)
